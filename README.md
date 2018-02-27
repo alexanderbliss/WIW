@@ -1,4 +1,4 @@
-# Sexual Violence Center
+# WIW Back-End
 
 The SVC Application gives administrative users the tools they need to analyze, visualize, and manage volunteers, cases, and reports. Along with providing SVC advocates an organized data input process for creating and updating cases.
 
@@ -20,10 +20,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 Steps to get the development environment running.
 
-Below are the needed tables, contraints, and stored procedures for the application that need to be added to SQL, this application is originally written for plpgSQL
+Below are the needed tables for the application that need to be added to SQL, this application is originally written for plpgSQL
 
-The schema will need to be called "public" for your database.
-
+Your database should be called WIW
 ```
 CREATE TABLE "users" ("employee_id" serial primary key,
  			   		  "name" varchar(80),
